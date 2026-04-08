@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавить книгу — BookCrossing</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <h1>BookCrossing</h1>
+    <nav>
+        <a href="books.html">Все книги</a>
+        <a href="my-books.html">Мои книги</a>
+        <a href="add-book.html">Добавить книгу</a>
+        <a href="requests.html">Запросы</a>
+        <a href="exchanges.html">Обмены</a>
+        <button onclick="logout()">Выйти</button>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Добавление книги</h2>
+        <form id="addBookForm">
+            <input type="text" id="title" placeholder="Название" required>
+            <input type="text" id="author" placeholder="Автор" required>
+            <textarea id="description" placeholder="Описание"></textarea>
+            <input type="text" id="condition" placeholder="Состояние книги" required>
+            <button class="primary" type="submit">Добавить книгу</button>
+        </form>
+        <p id="message" class="message"></p>
+    </div>
+</div>
+
+<script src="../js/api.js"></script>
+<script src="../js/books.js"></script>
+</body>
+</html>

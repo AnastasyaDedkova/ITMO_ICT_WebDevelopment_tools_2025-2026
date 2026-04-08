@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6fb;
+    color: #1f2937;
+}
+
+header {
+    background: #4f46e5;
+    color: white;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+nav a, nav button {
+    background: white;
+    color: #4f46e5;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav a:hover, nav button:hover {
+    background: #e0e7ff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+form {
+    display: grid;
+    gap: 14px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button.primary {
+    background: #4f46e5;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button.primary:hover {
+    background: #4338ca;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.book-card, .request-card, .exchange-card {
+    background: white;
+    border-radius: 16px;
+    padding: 18px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.book-card h3,
+.request-card h3,
+.exchange-card h3 {
+    margin-bottom: 10px;
+}
+
+.book-meta, .request-meta, .exchange-meta {
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.status {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #e0e7ff;
+    color: #3730a3;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.auth-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.auth-card {
+    background: white;
+    width: 100%;
+    max-width: 420px;
+    padding: 28px;
+    border-radius: 18px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1);
+}
+
+.auth-card h1 {
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #dc2626;
+}
+
+.success {
+    color: #059669;
+}

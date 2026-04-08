@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Обмены — BookCrossing</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <h1>BookCrossing</h1>
+    <nav>
+        <a href="books.html">Все книги</a>
+        <a href="my-books.html">Мои книги</a>
+        <a href="add-book.html">Добавить книгу</a>
+        <a href="requests.html">Запросы</a>
+        <a href="exchanges.html">Обмены</a>
+        <button onclick="logout()">Выйти</button>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Мои обмены</h2>
+        <div id="exchangesList" class="grid"></div>
+    </div>
+</div>
+
+<script src="../js/api.js"></script>
+<script src="../js/exchanges.js"></script>
+</body>
+</html>
