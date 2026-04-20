@@ -1,0 +1,16 @@
+approach,mode,max_number,workers,return_code,status
+threading,B,5000000000,1,0,ok
+async,B,5000000000,1,0,ok
+multiprocessing,B,5000000000,1,0,ok
+threading,B,5000000000,2,0,ok
+async,B,5000000000,2,0,ok
+multiprocessing,B,5000000000,2,0,ok
+threading,B,5000000000,4,0,ok
+async,B,5000000000,4,0,ok
+multiprocessing,B,5000000000,4,0,ok
+threading,B,5000000000,8,0,ok
+async,B,5000000000,8,0,ok
+multiprocessing,B,5000000000,8,0,ok
+threading,B,5000000000,16,0,ok
+async,B,5000000000,16,0,ok
+multiprocessing,B,5000000000,16,0,ok

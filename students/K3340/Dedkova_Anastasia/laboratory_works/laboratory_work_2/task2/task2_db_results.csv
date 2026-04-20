@@ -1,0 +1,4 @@
+mode,elapsed_sec,total_urls
+threading_db,244.7244,950
+multiprocessing_db,268.7236,950
+async_db,56.8838,950
