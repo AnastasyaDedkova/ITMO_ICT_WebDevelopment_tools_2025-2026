@@ -7,4 +7,4 @@
 
 ## Лабораторные работы
 - [Лабораторная работа 1](laboratory_works/laboratory_work_1.md)
-- [Лабораторная работа 2](laboratory_works/laboratory_work_2.md)
+- [Лабораторная работа 2](laboratory_works/laboratory_work_2/index.md)
